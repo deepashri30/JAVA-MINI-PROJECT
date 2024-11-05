@@ -1,4 +1,3 @@
-# JavaToDoListapp
 # TodoListApp4
 
 TodoListApp4 is a simple Java Swing application for managing a to-do list. This application allows users to add, edit, and delete tasks, and it visually distinguishes tasks based on their status.
@@ -21,34 +20,34 @@ TodoListApp4 is a simple Java Swing application for managing a to-do list. This 
 
 1. Clone the repository or download the source code.
 2. Compile the Java source file
-bash
+```bash
 javac TodoListApp4.java
-
+```
 3. Create a manifest file named  `MANIFEST.txt` with the following content:
-text
+```text
 Main-Class: TodoListApp4
-
+```
 
 4. Create the  executable JAR file
-bash
+```bash
 jar cfm TodoListApp4.jar manifest.txt *.class
-
+```
 
 ## Usage 
 Run the application using the following command:
-bash 
+```bash 
 java -jar TodoListApp4.jar
-
+```
 
 ## Code Overview
 ### Main class 
 
-The The main class of the application is  TodoListApp4. It initializes the GUI and handles the main logic of the application.
+The The main class of the application is ``` TodoListApp4```. It initializes the GUI and handles the main logic of the application.
 
 ### Task Renderer
 The application uses a custom cell renderer to visually distinguish tasks based on their status:
 
-java 
+```java 
 @Override
 public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
     Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
@@ -64,8 +63,7 @@ public Component getTableCellRendererComponent(JTable table, Object value, boole
     }
     return c;
 }
-
+```
 
 ### Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
