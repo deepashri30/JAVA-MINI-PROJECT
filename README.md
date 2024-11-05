@@ -19,6 +19,10 @@ TodoListApp4 is a simple Java Swing application for managing a to-do list. This 
 ## Installation
 
 1. Clone the repository or download the source code.
+```bash
+git clone https://github.com/deepashri30/JavaToDoListapp
+cd JavaToDoListapp
+```
 2. Compile the Java source file
 ```bash
 javac TodoListApp4.java
